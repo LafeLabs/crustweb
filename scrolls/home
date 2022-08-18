@@ -1,0 +1,103 @@
+## [HOME](index.html)
+
+# Scrolls
+
+*Self-replicating sets of text documents.*
+
+These documents are in the [markdown](https://www.markdownguide.org/basic-syntax/) format.  Local hyperlinks from one scroll to another are created by naming the scroll to link to along with "scrolls/" before it.  
+
+[![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/replicator.jpg)](scrolls/simplecube)
+
+ - [PI CRUST Github code repository](https://github.com/LafeLabs/picrust)
+ - [Web 1.0 Github repo](https://github.com/LafeLabs/web)
+ - [www.trashrobot.org](https://www.trashrobot.org/)
+ - [home](index.html)
+ - [simple cube](scrolls/simplecube)
+ - [links scroll](scrolls/links)
+ - [replicators scroll](scrolls/replicators)
+ - [editor.php](editor.php)
+ - [scrolleditor.php](scrolleditor.php)
+ - [scrollset.html](scrollset.html)
+ - [scrolldelete.html](scrolldelete.html)
+ - [data/scrollset.txt](data/scrollset.txt)
+ - [replicator scroll](scrolls/replicators)
+ - [classes](scrolls/classes)
+
+# Cloudless Media
+
+## *The web without the Internet*
+
+ - [In the beginning...the Bell System](scrolls/bellsystem)
+ - [ARPANET](scrolls/arpanet)
+ - [Tim Berners-Lee at CERN](scrolls/tbl)
+ - [The Web vs. the Internet](scrolls/web)
+ - [The 90s bubble: capturing eyeballs](scrolls/eyeballs)
+ - [Web 2.0: Facebook's takeover](scrolls/web2)
+ - [The Cloud](scrolls/cloud)
+ - [Mobile hardware explosion](scrolls/mobile)
+ - [A Universe of servers](scrolls/servers)
+ - [Self-replicating code](scrolls/codereplication)
+ - [Code evolution](scrolls/codeevolution)
+ - [Installation of PI CRUST](scrolls/picrust)
+ - [Use Cases of PI CRUST](scrolls/usecases)
+ - [Self-replicating text media](scrolls/scrollsets)
+ - [Free Hardware Growth](scrolls/hardware)
+ - [Network Operator Support](scrolls/operators)
+ - [Content Creator Support](scrolls/creators)
+
+**Abstract**: We take it for granted that the Web and the Internet are roughly the same thing.  The “Internet” as far as most of us are concerned is an amorphous structure of faraway data centers which all come together to form the “cloud” which hosts all our apps and web pages.  However, all devices which can view web pages(phones, tablets, laptops, pc’s) can also be web servers.  We can build *all* of our devices we use to consume content into devices to share content over physically local networks, without using the cloud at all.  I will talk briefly about the history of the Web and the Internet and then show the system I’ve built for community-based media centered on local shared wifi networks. 
+
+# Trash Magic
+
+*Self-replicating media from trash*
+
+ - [Replicate Cubes](scrolls/cubes)
+ - [simple cube](scrolls/simplecube)
+ - [Replicate Trash Magic Cards](scrolls/cards)
+ - [Replicate Action Geometry Shapes](scrolls/shapes)
+ - [Read the books of Geometron and Trash Magic](scrolls/books)
+ - [Replicate PI CRUST servers](https://github.com/LafeLabs/picrust)
+ - [Replicate Geometron Icons](scrolls/icons)
+ - [Replicate Trash Robot Geometron Icon Printers](scrolls/printers)
+ - [Replicate Web 1.0 Pages](https://github.com/lafeLabs/web)
+
+# simplecube
+
+We build cubes from corrugated cardboard and post links back to the document which describes how to make those cubes.
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/github.jpg)
+
+
+The tools to replicate the cube: box cutter, pen, ruler
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/tools.jpg)
+
+We cut 2 of these out:  
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/noholeside.jpg)
+
+And 2 of these:
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/holeside.jpg)
+
+Then one of these:
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/bottom.jpg)
+
+And the 5 pieces look like this:
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/layout.jpg)
+
+Which are assembled into the Simple Cube:
+
+![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/simplecube.jpg)
+
+Cubes are stacked. They are used to store the tools to make more cubes.  They are decorated with geometric fractals using the tools of Geometron and Action Geometry.  They can be linked with sharpie to social media accounts, web pages, physical places, or people.  This physical object is a physical hyperlink to anything you want it to be.  Cubes can be used to build robots, plant plants, create nano-compost projects and fungi growth projects, earthen walls, art tool holders, or anything else we can think of.  We link cubes with code and code with cubes.
+
+### Socials
+
+ - [tiktok:@trash_robot](https://www.tiktok.com/@trash_robot)
+ - [instagram:@lafelabs](https://www.instagram.com/lafelabs/)
+ - [twitter:@trashrobot0](https://twitter.com/trashrobot0)
+ - [youtube:@trash_robot](https://www.youtube.com/channel/UCLyeOlfnEBCnRTAH8rppEFw)
+

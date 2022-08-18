@@ -1,14 +1,12 @@
-# PI CRUST Server
+### [HOME](scrolls/home)
 
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/replicator.jpg)
+# PI CRUST Server
 
 ### *Local media on local networks*
 
-- [replicator.php](https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt)
-- [index.html](index.html)
-- [http://localhost/](http://localhost/)
-- [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
-- [www.trashrobot.org](https://www.trashrobot.org/)
+### [index.html](index.html)
+
+### [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
 
 This is local media.  We can install web servers on *everything*: mac and Windows laptops and desktops, Raspberry Pi, and Android and iOS Devices.  Any device can be a server, and we drop files on it to share with others on the same wireless network.  When every device is a server as well as a client, people who share wireless networks can media without the Cloud.  
 
@@ -27,17 +25,12 @@ The construction of this network represents the building of digital community th
  - local classifieds and personals ads
  - media for exchange of physical goods: share, give away, buy, and sell crafts, technology, food, locally made goods and unwanted objects, facilitate upcycling 
  - local financial markets, moderating deals between physically local business people
- - music sharing in religious communities(record audio and post to wifi) 
+ - music sharing in religious communities 
  - local plant, animal, fungus, soil, weather and water knowledge sharing 
  - creating foundational documents for local organizations whose existence is primarily on these local wifi-based networks
- - Documenting self-replicating things made from trash: trash magic
- - Free sharing of books, local library infrastructure, extension of Public Library system
- - censorship-resistant news distribution, local news
- - rapid creation of historical documents during historical events on location for replication to archives afterward
- - immersive text-based games, mixed reality
 
 
-Scroll down to see how to install the PI CRUST server on a machine.  If many people will use a server, we want something like a [Raspberry Pi](https://www.raspberrypi.org/) that is dedicated for this purpose.  Raspberry Pi is increasingly hard to buy, but they can often be found for donation from the community from people who have them but don't use them.  Also, we can take any old laptop or desktop, wipe the hard drive clean(to avoid security issues) and install Linux, then follow the same instructions as for the Pi to install the server on it.  
+Scroll down to see how to install the PI CRUST server on a machine.  If many people will use a server, we want something like a [Raspberry Pi](https://www.raspberrypi.org/) that is dedicated for this purpose.  
 
 The main page of the PI CRUST server is just a simple list of links:
 
@@ -77,17 +70,9 @@ You can enter *any* address into the text input and hit "enter" to load any arbi
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/qrcode-trashrobot.png)
 
-To point to a server, find the IP address of the machine by looking at the wifi settings:
 
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/ip-address.png)
 
-Then put into the qrcode page the address "http://your ipv4 address".  You can also put in an [IPv6 address](https://en.wikipedia.org/wiki/IPv6) by putting it inside square brackets. So for example link for a 4 number ip(ipv4) address
-
-```
-http://10.0.0.7
-```
-
-### Installation on Windows or Mac
+### Install on Windows or Mac
 
 First, install XAMPP, a free open source web server for all platforms.  [Download from www.apachefriends.org](https://www.apachefriends.org/index.html).  Click on windows to download, and click through to install everything.
 
@@ -135,7 +120,7 @@ sudo apt install apache2 -y
 sudo apt install php libapache2-mod-php -y
 ```
 
-## Install PI CRUST 
+## Install hypercube with this document for self-documentation and replication
 
 ```
 cd /var/www/html
@@ -186,49 +171,5 @@ Use the Editor built into the system to create a new file called replicator.php 
  - push your code to your github repo
  - use the new replicator code on your github repo to replicate out that instance to all other servers(linux, windows, mac, android) and forks
  - when you figure this out, make youtube videos showing other people how to copy the whole system 
-
-# simplecube
-
-We build cubes from corrugated cardboard and post links back to the document which describes how to make those cubes.
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/github.jpg)
-
-
-The tools to replicate the cube: box cutter, pen, ruler
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/tools.jpg)
-
-We cut 2 of these out:  
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/noholeside.jpg)
-
-And 2 of these:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/holeside.jpg)
-
-Then one of these:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/bottom.jpg)
-
-And the 5 pieces look like this:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/layout.jpg)
-
-Which are assembled into the Simple Cube:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/simplecube.jpg)
-
-Cubes are stacked. They are used to store the tools to make more cubes.  They are decorated with geometric fractals using the tools of Geometron and Action Geometry.  They can be linked with sharpie to social media accounts, web pages, physical places, or people.  This physical object is a physical hyperlink to anything you want it to be.  Cubes can be used to build robots, plant plants, create nano-compost projects and fungi growth projects, earthen walls, art tool holders, or anything else we can think of.  We link cubes with code and code with cubes.
-
-### [Replicate Web 1.0 Pages](https://github.com/lafeLabs/web)
-
-
-### Socials
-
- - [tiktok:@trash_robot](https://www.tiktok.com/@trash_robot)
- - [instagram:@lafelabs](https://www.instagram.com/lafelabs/)
- - [twitter:@trashrobot0](https://twitter.com/trashrobot0)
- - [youtube:@trash_robot](https://www.youtube.com/channel/UCLyeOlfnEBCnRTAH8rppEFw)
-
 
 
