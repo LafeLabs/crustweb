@@ -89,6 +89,7 @@ httpc666.send();
 document.getElementById("serverurlinput").onchange = function(){
     serverurl = this.value;
     loadserver();
+    saveserver();
 }
 
 
@@ -99,10 +100,14 @@ function loadserver(){
     qrcode.makeCode(serverurl);
 }
 
+function saveserver(){
 
-
-
-
+    var httpc = new XMLHttpRequest();
+    var url = "filesaver.php";        
+    httpc.open("POST", url, true);
+    httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+    httpc.send("data="+serverurl+"&filename=data/serverurl.txt");//send text to filesaver.php
+}
 
 
 </script>

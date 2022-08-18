@@ -12,7 +12,7 @@
 - create desktop shortcuts to media and images folders in the htdocs folder
 - put sub-folders in the media folder for different kinds of media, put media you want to share in those folders
 - find your ip address and put it in the input for the local server link on the front page, to make the QR code point to the server. 
- - point web 1.0 pages to your physical location and wifi logon instructions and a live hyperlink to the ip address of your server
+ - point [Web 1.0](https://github.com/LafeLabs/web) pages to your physical location and wifi logon instructions and a live hyperlink to the ip address of your server
 
 This is local media.  We can install web servers on *everything*: mac and Windows laptops and desktops, Raspberry Pi, and Android and iOS Devices.  Any device can be a server, and we drop files on it to share with others on the same wireless network.  When every device is a server as well as a client, people who share wireless networks can media without the Cloud.  
 
