@@ -1,12 +1,14 @@
-# PI CRUST Server
+# [CRUST WEB](https://github.com/LafeLabs/crustweb)
 
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/replicator.jpg)
+![]()
 
 ### *Local media on local networks*
 
-- [replicator.php](https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt)
+- [XAMPP Download](https://www.apachefriends.org/index.html)
+- [replicator.php](https://raw.githubusercontent.com/LafeLabs/crustweb/main/replicator.php)
 - [index.html](index.html)
 - [http://localhost/](http://localhost/)
+- [http://localhost/replicator.php](http://localhost/replicator.php)
 - [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
 - [www.trashrobot.org](https://www.trashrobot.org/)
 
