@@ -1,18 +1,23 @@
 # [CRUST WEB](https://github.com/LafeLabs/crustweb)
 
+## [http://localhost/](http://localhost/)
+
 ![](https://raw.githubusercontent.com/LafeLabs/crustweb/main/images/replicator.jpg)
 
 ### *Local media on local networks*
 
-- [download XAMPP](https://www.apachefriends.org/index.html) and install, start it, go to the directory xampp/htdocs and delete the file index.php
-- download [replicator.php](https://raw.githubusercontent.com/LafeLabs/crustweb/main/replicator.php) and save it in the directory htdocs
+- [download XAMPP](https://www.apachefriends.org/index.html) and install, 
+- go to the directory xampp/htdocs and delete the file index.php
+- download [replicator.php](https://raw.githubusercontent.com/LafeLabs/crustweb/main/replicator.php)(right click, "save link as") and save it in the directory htdocs
+- start the xampp server either by searching for the program or manually starting it from the xampp directory on your hard drive
 - go to [http://localhost/replicator.php](http://localhost/replicator.php) to replicate the server, click the link to go to the local CRUST WEB
-- [index.html](index.html)
-- [http://localhost/](http://localhost/)
-- create desktop shortcuts to media and images folders in the htdocs folder
-- put sub-folders in the media folder for different kinds of media, put media you want to share in those folders
-- find your ip address and put it in the input for the local server link on the front page, to make the QR code point to the server. 
+- or navigate there with this link to [http://localhost/](http://localhost/)
+- create desktop shortcuts to media/ and images/ folders in the xampp/htdocs folder
+- put sub-folders in the media folder for different kinds of media, put media you want to share in those folders, make a "books" and "music" folder and put pdfs of books in the books folder and .mp3's of songs in the music folder
+- find your ip address from your wifi settings and put it in the input at the bottom of the screen as indicated(http://[your ip address]/) and hit "enter" to update the permanent value of the server url
  - point [Web 1.0](https://github.com/LafeLabs/web) pages to your physical location and wifi logon instructions and a live hyperlink to the ip address of your server
+ - point cardboard signs to [web 1.0](https://github.com/LafeLabs/web) pages
+ - post ads in the form of images from the main page
 
 This is local media.  We can install web servers on *everything*: mac and Windows laptops and desktops, Raspberry Pi, and Android and iOS Devices.  Any device can be a server, and we drop files on it to share with others on the same wireless network.  When every device is a server as well as a client, people who share wireless networks can media without the Cloud.  
 
@@ -36,26 +41,11 @@ The construction of this network represents the building of digital community th
  - creating foundational documents for local organizations whose existence is primarily on these local wifi-based networks
  - Documenting self-replicating things made from trash: trash magic
  - Free sharing of books, local library infrastructure, extension of Public Library system
+ - free private library of banned books
  - censorship-resistant news distribution, local news
  - rapid creation of historical documents during historical events on location for replication to archives afterward
  - immersive text-based games, mixed reality
 
-
-Scroll down to see how to install the PI CRUST server on a machine.  If many people will use a server, we want something like a [Raspberry Pi](https://www.raspberrypi.org/) that is dedicated for this purpose.  Raspberry Pi is increasingly hard to buy, but they can often be found for donation from the community from people who have them but don't use them.  Also, we can take any old laptop or desktop, wipe the hard drive clean(to avoid security issues) and install Linux, then follow the same instructions as for the Pi to install the server on it.  
-
-The main page of the PI CRUST server is just a simple list of links:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/picrust.png)
-
-Click the link to the local web and you'll see a list of all the .html files in the "web/" directory on the server.  
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/localweb.png)
-
-To make a new web page, click the link from the page web/index.html to "WEB EDITOR" and you can edit that main web page and build new web pages.  To destroy web pages you can click the link to "web destroyer".  
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/webeditor.png)
-
-All web pages should end with ".html".   You can also use this editor to create [JavaScript](https://www.w3schools.com/js/default.asp) files(.js) and [CSS](https://www.w3schools.com/css/default.asp) files(.css) for local web development.  Teach yourself web development using the tutorials at [w3schools.com](https://www.w3schools.com/), starting with HTML(https://www.w3schools.com/html/default.asp).  You can follow along the tutorials by editing your own private home page on a PI CRUST server.
 
 A very simple way to make a local media server on which people can share simple advertisements for literally anything is to host images of small screenshots and photographs.  We do this with the image feed, linked from the main page via the "Images" link.  The Image Feed has buttons to select an image to upload, then upload the image to the server.  Any image larger than about 1 megabyte won't upload.  For large images, either crop them or screen shot them and then crop the screenshot(this reduces the resolution and makes smaller files).
 
@@ -72,49 +62,6 @@ In general, media files we want to share can be dropped into folders which are p
 The entire system is self-editing, self-replicating, and self-contained.  Each server contains a code editor which can edit the whole system including itself.  Among the set of files on each system is also a set of scripts which clone the whole system.  Files are cataloged using the script [dnagenerator.php](php/dnagenerator.txt), which creates a file called [data/dna.txt](data/dna.txt) which is finally used by [replicator.php](php/replicator.txt) to copy all the code in the system from one server to the next.  Because all this is free Public Domain code we can host it on Github for free and replicate from there, but once it's replicating out in the wild, we can replicate from one server to another without referencing back to Github if we want. At any time, any instance can then be cloned to a local directory which is pushed out to a public Github repository which can the replicate out globally.  Thus we can move smoothly between totally local private replication and public replication to potentially billions of devices using Github's free hosting of open source projects(or anyone's random personal home pages on the public World Wide Web).
 
 ![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/editorphp.png)
-
-QR Codes allow us to quickly exchange a link from one mobile device to another for rapid sharing of links to local servers in a physical space.  These can also be printed out and posted in a public space for getting onto servers smoothly. When you first go to [qrcode.html](qrcode.html) it will load whatever web address is in the browser bar of whatever machine you're looking at it on.  
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/qrcode.png)
-
-You can enter *any* address into the text input and hit "enter" to load any arbitrary QR code.  These can then be screen shotted and uploaded to the [Image Feed](images.html) for rapid sharing of a specific domain.
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/qrcode-trashrobot.png)
-
-To point to a server, find the IP address of the machine by looking at the wifi settings:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/ip-address.png)
-
-Then put into the qrcode page the address "http://your ipv4 address".  You can also put in an [IPv6 address](https://en.wikipedia.org/wiki/IPv6) by putting it inside square brackets. So for example link for a 4 number ip(ipv4) address
-
-```
-http://10.0.0.7
-```
-
-### Installation on Windows or Mac
-
-First, install XAMPP, a free open source web server for all platforms.  [Download from www.apachefriends.org](https://www.apachefriends.org/index.html).  Click on windows to download, and click through to install everything.
-
-![](https://i.imgur.com/G90zeyE.png)
-
-After you download and install it, run it and start Apache.  You should see a control panel like this:
-
-![](https://i.imgur.com/wgpIqfH.png)
-
-Click on "Explorer" to get access to where the files are.  From the main directory called xamp, you want the sub-directory "htdocs".  Open this, delete the index.php file, and create a new file called replicator.php which you copy and paste the replicator at [php/replicator.txt](php/replicator.txt) into, and save.  
-
-![](https://i.imgur.com/EpHYYOd.png)
-
-Point a web browser on the same computer to [http://localhost/](http://localhost), then click on replicator.php.  This should replicate the whole system into the directory.  When this is done, click the link to go to the main page. 
-
-
-Create a shortcut on the desktop to the "media" folder in order to make it very easy to drag and drop media into it. 
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/media-shortcut.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/media-path.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/readme-images/media-folders.png)
 
 
 ### Install on Pi
@@ -144,7 +91,7 @@ sudo apt install php libapache2-mod-php -y
 ```
 cd /var/www/html
 sudo rm index.html
-sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/picrust/main/php/replicator.txt
+sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/crustweb/main/php/replicator.txt
 cd ..
 sudo chmod -R 0777 *
 cd html
@@ -155,7 +102,6 @@ sudo chmod -R 0777 *
 Check the IP address by hovering over the wifi icon, put that into the browser on another machine on the same local wifi network to see and edit the server.  Or open a browser on the pi and point it to [http://localhost](http://localhost)
 
  
-
 ### Install on Android
 
 
@@ -190,39 +136,6 @@ Use the Editor built into the system to create a new file called replicator.php 
  - push your code to your github repo
  - use the new replicator code on your github repo to replicate out that instance to all other servers(linux, windows, mac, android) and forks
  - when you figure this out, make youtube videos showing other people how to copy the whole system 
-
-# simplecube
-
-We build cubes from corrugated cardboard and post links back to the document which describes how to make those cubes.
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/github.jpg)
-
-
-The tools to replicate the cube: box cutter, pen, ruler
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/tools.jpg)
-
-We cut 2 of these out:  
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/noholeside.jpg)
-
-And 2 of these:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/holeside.jpg)
-
-Then one of these:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/bottom.jpg)
-
-And the 5 pieces look like this:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/layout.jpg)
-
-Which are assembled into the Simple Cube:
-
-![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/simplecube.jpg)
-
-Cubes are stacked. They are used to store the tools to make more cubes.  They are decorated with geometric fractals using the tools of Geometron and Action Geometry.  They can be linked with sharpie to social media accounts, web pages, physical places, or people.  This physical object is a physical hyperlink to anything you want it to be.  Cubes can be used to build robots, plant plants, create nano-compost projects and fungi growth projects, earthen walls, art tool holders, or anything else we can think of.  We link cubes with code and code with cubes.
 
 ### [Replicate Web 1.0 Pages](https://github.com/lafeLabs/web)
 
