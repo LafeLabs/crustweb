@@ -1,21 +1,20 @@
 ## [HOME](index.html)
 
-# Scrolls
+# Trash Magic Books
 
 *Self-replicating sets of text documents.*
 
 These documents are in the [markdown](https://www.markdownguide.org/basic-syntax/) format.  Local hyperlinks from one scroll to another are created by naming the scroll to link to along with "scrolls/" before it.  
 
-[![](https://raw.githubusercontent.com/LafeLabs/picrust/main/simplecube/uploadimages/replicator.jpg)](scrolls/simplecube)
-
- - [PI CRUST Github code repository](https://github.com/LafeLabs/picrust)
+ - [CRUST WEB Github code repository](https://github.com/LafeLabs/crustweb)
+ - [README.md on this server](readme.html)
  - [Web 1.0 Github repo](https://github.com/LafeLabs/web)
  - [www.trashrobot.org](https://www.trashrobot.org/)
  - [home](index.html)
  - [simple cube](scrolls/simplecube)
  - [links scroll](scrolls/links)
  - [replicators scroll](scrolls/replicators)
- - [editor.php](editor.php)
+ - [code editor editor.php](editor.php)
  - [scrolleditor.php](scrolleditor.php)
  - [scrollset.html](scrollset.html)
  - [scrolldelete.html](scrolldelete.html)

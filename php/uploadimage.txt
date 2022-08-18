@@ -14,7 +14,7 @@ if (file_exists($target_file)) {
     $imageIndex +=  1;
    // $target_file = $target_dir . "image" . $imageIndex . $extension;
 }
-if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], "uploadimages/img".time().$extension)) {
+if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], "images/img".time().$extension)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
        
 }

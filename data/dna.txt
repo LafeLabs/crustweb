@@ -20,8 +20,7 @@
     "data": [
         "dna.txt",
         "scrollset.txt",
-        "wall.txt",
-        "webdna.txt"
+        "serverurl.txt"
     ],
     "php": [
         "copy.txt",
@@ -39,9 +38,7 @@
         "scrollsetreplicator.txt",
         "text2php.txt",
         "uploadimage.txt",
-        "uploadmedia.txt",
-        "webdnagenerator.txt",
-        "webreplicator.txt"
+        "uploadmedia.txt"
     ],
     "scrolls": [
         "adboard",

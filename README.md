@@ -1,16 +1,18 @@
 # [CRUST WEB](https://github.com/LafeLabs/crustweb)
 
-![]()
+![](https://raw.githubusercontent.com/LafeLabs/crustweb/main/images/replicator.jpg)
 
 ### *Local media on local networks*
 
-- [XAMPP Download](https://www.apachefriends.org/index.html)
-- [replicator.php](https://raw.githubusercontent.com/LafeLabs/crustweb/main/replicator.php)
+- [download XAMPP](https://www.apachefriends.org/index.html) and install, start it, go to the directory xampp/htdocs and delete the file index.php
+- download [replicator.php](https://raw.githubusercontent.com/LafeLabs/crustweb/main/replicator.php) and save it in the directory htdocs
+- go to [http://localhost/replicator.php](http://localhost/replicator.php) to replicate the server, click the link to go to the local CRUST WEB
 - [index.html](index.html)
 - [http://localhost/](http://localhost/)
-- [http://localhost/replicator.php](http://localhost/replicator.php)
-- [Github repository at github.com/lafelabs/picrust](https://github.com/LafeLabs/picrust)
-- [www.trashrobot.org](https://www.trashrobot.org/)
+- create desktop shortcuts to media and images folders in the htdocs folder
+- put sub-folders in the media folder for different kinds of media, put media you want to share in those folders
+- find your ip address and put it in the input for the local server link on the front page, to make the QR code point to the server. 
+ - point web 1.0 pages to your physical location and wifi logon instructions and a live hyperlink to the ip address of your server
 
 This is local media.  We can install web servers on *everything*: mac and Windows laptops and desktops, Raspberry Pi, and Android and iOS Devices.  Any device can be a server, and we drop files on it to share with others on the same wireless network.  When every device is a server as well as a client, people who share wireless networks can media without the Cloud.  
 
