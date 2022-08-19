@@ -63,7 +63,7 @@
 serverurl = "http://localhost/";
 
 codesquaresize = 200;
-
+document.getElementById("qrcode").style.width = codesquaresize.toString() + "px";
 qrcode = new QRCode(document.getElementById("qrcode"), {
 	text: serverurl,
 	width: codesquaresize,
@@ -130,7 +130,9 @@ body{
     color:#00ff00;
 }
 #qrcode{
-    
+    border:solid;
+    border-width:20px;
+    border-color:#808080;
 }
 h1{
     text-align:center;
