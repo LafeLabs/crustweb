@@ -2,59 +2,26 @@
 
 # Trash Magic Books
 
-*Self-replicating sets of text documents.*
+*Self-replicating media from trash*
 
-These documents are in the [markdown](https://www.markdownguide.org/basic-syntax/) format.  Local hyperlinks from one scroll to another are created by naming the scroll to link to along with "scrolls/" before it.  
-
- - [CRUST WEB Github code repository](https://github.com/LafeLabs/crustweb)
+ - [markdown syntax reference](https://www.markdownguide.org/basic-syntax/) 
+ - [Replicate Cubes](scrolls/cubes)
+ - [simple cube](scrolls/simplecube)
+ - [Replicate Trash Magic Cards](scrolls/cards)
+ - [Replicate Action Geometry Shapes](scrolls/shapes)
+ - [Read the books of Geometron and Trash Magic](scrolls/books)
+ - [Replicate CRUST WEB servers](https://github.com/LafeLabs/crustweb)
+ - [Replicate Geometron Icons](scrolls/icons)
+ - [Replicate Trash Robot Geometron Icon Printers](scrolls/printers)
+ - [Replicate Web 1.0 Pages](https://github.com/lafeLabs/web)
  - [README.md on this server](readme.html)
  - [Web 1.0 Github repo](https://github.com/LafeLabs/web)
  - [www.trashrobot.org](https://www.trashrobot.org/)
  - [home](index.html)
  - [code editor editor.php](editor.php)
  - [scrollset.html](scrollset.html)
-
-# Trash Magic
-
-*Self-replicating media from trash*
-
- - [Replicate Cubes](scrolls/cubes)
- - [simple cube](scrolls/simplecube)
- - [Replicate Trash Magic Cards](scrolls/cards)
- - [Replicate Action Geometry Shapes](scrolls/shapes)
- - [Read the books of Geometron and Trash Magic](scrolls/books)
- - [Replicate PI CRUST servers](https://github.com/LafeLabs/picrust)
- - [Replicate Geometron Icons](scrolls/icons)
- - [Replicate Trash Robot Geometron Icon Printers](scrolls/printers)
- - [Replicate Web 1.0 Pages](https://github.com/lafeLabs/web)
-
-# Socials
-
  - [tiktok:@trash_robot](https://www.tiktok.com/@trash_robot)
  - [instagram:@lafelabs](https://www.instagram.com/lafelabs/)
  - [twitter:@trashrobot0](https://twitter.com/trashrobot0)
  - [youtube:@trash_robot](https://www.youtube.com/channel/UCLyeOlfnEBCnRTAH8rppEFw)
-
-# Cloudless Media
-
-## *The web without the Internet*
-
- - [In the beginning...the Bell System](scrolls/bellsystem)
- - [ARPANET](scrolls/arpanet)
- - [Tim Berners-Lee at CERN](scrolls/tbl)
- - [The Web vs. the Internet](scrolls/web)
- - [The 90s bubble: capturing eyeballs](scrolls/eyeballs)
- - [Web 2.0: Facebook's takeover](scrolls/web2)
- - [The Cloud](scrolls/cloud)
- - [Mobile hardware explosion](scrolls/mobile)
- - [A Universe of servers](scrolls/servers)
- - [Self-replicating code](scrolls/codereplication)
- - [Code evolution](scrolls/codeevolution)
- - [Installation of PI CRUST](scrolls/picrust)
- - [Use Cases of PI CRUST](scrolls/usecases)
- - [Self-replicating text media](scrolls/scrollsets)
- - [Free Hardware Growth](scrolls/hardware)
- - [Network Operator Support](scrolls/operators)
- - [Content Creator Support](scrolls/creators)
-
 

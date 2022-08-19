@@ -41,19 +41,10 @@
         "uploadmedia.txt"
     ],
     "scrolls": [
-        "adboard",
-        "apartment",
-        "arpanet",
-        "bellsystem",
         "books",
         "cards",
-        "classes",
         "cloud",
-        "codeevolution",
-        "codereplication",
-        "creators",
         "cubes",
-        "eyeballs",
         "hardware",
         "home",
         "icons",
@@ -69,12 +60,7 @@
         "scrollsets",
         "servers",
         "shapes",
-        "shoppingcenter",
-        "simplecube",
-        "tbl",
-        "usecases",
-        "web",
-        "web2"
+        "simplecube"
     ],
     "web": [
         "arduino.html",

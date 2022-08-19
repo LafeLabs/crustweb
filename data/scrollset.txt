@@ -1,20 +1,10 @@
 {
     "server": "https://raw.githubusercontent.com/LafeLabs/picrust/main/trashmagic/",
     "scrolls": [
-        "adboard",
-        "apartment",
-        "arpanet",
-        "bellsystem",
         "books",
         "cards",
-        "classes",
         "cloud",
-        "codeevolution",
-        "codereplication",
-        "creators",
-        "crustweb",
         "cubes",
-        "eyeballs",
         "hardware",
         "home",
         "icons",
@@ -30,11 +20,6 @@
         "scrollsets",
         "servers",
         "shapes",
-        "shoppingcenter",
-        "simplecube",
-        "tbl",
-        "usecases",
-        "web",
-        "web2"
+        "simplecube"
     ]
 }
